@@ -1,5 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+/**
+ * Bootstrap and Bootstrap Icons Importation
+ */
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+/**
+ * Generic index Styles Importation
+ */
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

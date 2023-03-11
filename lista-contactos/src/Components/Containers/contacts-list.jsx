@@ -4,6 +4,7 @@ import { Contact } from '../../Models/Contact.class';
 import PropTypes from 'prop-types';
 import { STATUS } from '../../Models/Status.enum';
 import NewContactForm from '../Pure/newContactForm';
+import NewContactFormik from '../Pure/newContactFormik';
 
 
 const ContactsList = () => {
@@ -41,7 +42,8 @@ const ContactsList = () => {
     return (
         <div>
             {items}
-            <NewContactForm add={addContact}></NewContactForm>
+            {/*<NewContactForm add={addContact}></NewContactForm>*/}
+            <NewContactFormik add={addContact}></NewContactFormik>
         </div>
     );
 };
